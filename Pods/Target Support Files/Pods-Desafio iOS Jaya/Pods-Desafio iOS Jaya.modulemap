@@ -1,0 +1,6 @@
+framework module Pods_Desafio_iOS_Jaya {
+  umbrella header "Pods-Desafio iOS Jaya-umbrella.h"
+
+  export *
+  module * { export * }
+}
