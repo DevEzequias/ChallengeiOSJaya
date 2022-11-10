@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350500AB2916062500262D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350500AA2916062500262D32 /* AppDelegate.swift */; };
+		350500AD2916062500262D32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350500AC2916062500262D32 /* SceneDelegate.swift */; };
+		350500AF2916062500262D32 /* JayaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350500AE2916062500262D32 /* JayaViewController.swift */; };
+		350500B42916062600262D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350500B32916062600262D32 /* Assets.xcassets */; };
+		350500B72916062600262D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350500B52916062600262D32 /* LaunchScreen.storyboard */; };
+		350A918229174D7C005625DA /* JayaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A918129174D7C005625DA /* JayaTableViewCell.swift */; };
+		350A918529175242005625DA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 350A918429175242005625DA /* Alamofire */; };
+		350A918729175C32005625DA /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A918629175C32005625DA /* UIView+Autolayout.swift */; };
+		3511C94929176E85002623DE /* JayaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511C94829176E85002623DE /* JayaViewModel.swift */; };
+		3511C94B29176EB7002623DE /* JayaDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511C94A29176EB7002623DE /* JayaDescriptionViewController.swift */; };
+		3511C94D29176ECE002623DE /* JayaDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511C94C29176ECE002623DE /* JayaDescriptionViewModel.swift */; };
+		3530F686291AF26800B7E253 /* JayaDescriptionViewModelSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3530F685291AF26800B7E253 /* JayaDescriptionViewModelSpecs.swift */; };
+		353F3C4229186DBF0026ED4A /* JayaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F3C4129186DBF0026ED4A /* JayaModel.swift */; };
+		353F3C44291874960026ED4A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F3C43291874960026ED4A /* Service.swift */; };
+		353F3C462918A4EC0026ED4A /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F3C452918A4EC0026ED4A /* Observable.swift */; };
+		353F3C492918B5BC0026ED4A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 353F3C482918B5BC0026ED4A /* Kingfisher */; };
+		35C06E5D2919CB20004E394B /* Desafio_iOS_JayaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C06E5C2919CB20004E394B /* Desafio_iOS_JayaTests.swift */; };
+		35C06E6A2919CB44004E394B /* Desafio_iOS_JayaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C06E692919CB44004E394B /* Desafio_iOS_JayaUITests.swift */; };
+		35C06E6C2919CB44004E394B /* Desafio_iOS_JayaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C06E6B2919CB44004E394B /* Desafio_iOS_JayaUITestsLaunchTests.swift */; };
+		35C06ED7291A0303004E394B /* JayaViewModelSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C06ED6291A0303004E394B /* JayaViewModelSpecs.swift */; };
+		7796051AECCCB3C0FDDBA276 /* Pods_Desafio_iOS_Jaya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD719945ADCA6B0CC0ED040 /* Pods_Desafio_iOS_Jaya.framework */; };
+		C388CBF24EAB4CD203D08B23 /* Pods_Desafio_iOS_JayaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF41D61DD601F22A1633AAC /* Pods_Desafio_iOS_JayaTests.framework */; };
+		CB64D35C727D8407DD62C9A0 /* Pods_Desafio_iOS_Jaya_Desafio_iOS_JayaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509D4C58CFDA96AB1DCF770D /* Pods_Desafio_iOS_Jaya_Desafio_iOS_JayaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35C06E5E2919CB20004E394B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3505009F2916062400262D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350500A62916062400262D32;
+			remoteInfo = "Desafio iOS Jaya";
+		};
+		35C06E6D2919CB44004E394B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3505009F2916062400262D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350500A62916062400262D32;
+			remoteInfo = "Desafio iOS Jaya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ECDF66755076CD7B74F0F60 /* Pods-Desafio iOS Jaya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS Jaya.debug.xcconfig"; path = "Target Support Files/Pods-Desafio iOS Jaya/Pods-Desafio iOS Jaya.debug.xcconfig"; sourceTree = "<group>"; };
+		20D90B12DC711D22445F423D /* Pods-Desafio iOS Jaya-Desafio iOS JayaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS Jaya-Desafio iOS JayaUITests.release.xcconfig"; path = "Target Support Files/Pods-Desafio iOS Jaya-Desafio iOS JayaUITests/Pods-Desafio iOS Jaya-Desafio iOS JayaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		350500A72916062500262D32 /* Desafio iOS Jaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio iOS Jaya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		350500AA2916062500262D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		350500AC2916062500262D32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		350500AE2916062500262D32 /* JayaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayaViewController.swift; sourceTree = "<group>"; };
+		350500B32916062600262D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350500B62916062600262D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		350500B82916062600262D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350A918129174D7C005625DA /* JayaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayaTableViewCell.swift; sourceTree = "<group>"; };
+		350A918629175C32005625DA /* UIView+Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
+		3511C94829176E85002623DE /* JayaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayaViewModel.swift; sourceTree = "<group>"; };
+		3511C94A29176EB7002623DE /* JayaDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayaDescriptionViewController.swift; sourceTree = "<group>"; };
+		3511C94C29176ECE002623DE /* JayaDescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayaDescriptionViewModel.swift; sourceTree = "<group>"; };
+		3530F685291AF26800B7E253 /* JayaDescriptionViewModelSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayaDescriptionViewModelSpecs.swift; sourceTree = "<group>"; };
+		353F3C4129186DBF0026ED4A /* JayaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayaModel.swift; sourceTree = "<group>"; };
+		353F3C43291874960026ED4A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		353F3C452918A4EC0026ED4A /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		35C06E5A2919CB20004E394B /* Desafio iOS JayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio iOS JayaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C06E5C2919CB20004E394B /* Desafio_iOS_JayaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_iOS_JayaTests.swift; sourceTree = "<group>"; };
+		35C06E672919CB44004E394B /* Desafio iOS JayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio iOS JayaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C06E692919CB44004E394B /* Desafio_iOS_JayaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_iOS_JayaUITests.swift; sourceTree = "<group>"; };
+		35C06E6B2919CB44004E394B /* Desafio_iOS_JayaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_iOS_JayaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35C06ED6291A0303004E394B /* JayaViewModelSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JayaViewModelSpecs.swift; sourceTree = "<group>"; };
+		3CD719945ADCA6B0CC0ED040 /* Pods_Desafio_iOS_Jaya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_iOS_Jaya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF41D61DD601F22A1633AAC /* Pods_Desafio_iOS_JayaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_iOS_JayaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		509D4C58CFDA96AB1DCF770D /* Pods_Desafio_iOS_Jaya_Desafio_iOS_JayaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_iOS_Jaya_Desafio_iOS_JayaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF34BACFE7F67B0A6178106 /* Pods-Desafio iOS JayaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS JayaTests.debug.xcconfig"; path = "Target Support Files/Pods-Desafio iOS JayaTests/Pods-Desafio iOS JayaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		992B149810136C8A3BBC77CE /* Pods-Desafio iOS Jaya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS Jaya.release.xcconfig"; path = "Target Support Files/Pods-Desafio iOS Jaya/Pods-Desafio iOS Jaya.release.xcconfig"; sourceTree = "<group>"; };
+		B8A45490BBEE39E842E66565 /* Pods-Desafio iOS Jaya-Desafio iOS JayaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS Jaya-Desafio iOS JayaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Desafio iOS Jaya-Desafio iOS JayaUITests/Pods-Desafio iOS Jaya-Desafio iOS JayaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB5F02DEDCF01F5AA5B4F9A1 /* Pods-Desafio iOS JayaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio iOS JayaTests.release.xcconfig"; path = "Target Support Files/Pods-Desafio iOS JayaTests/Pods-Desafio iOS JayaTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350500A42916062400262D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353F3C492918B5BC0026ED4A /* Kingfisher in Frameworks */,
+				350A918529175242005625DA /* Alamofire in Frameworks */,
+				7796051AECCCB3C0FDDBA276 /* Pods_Desafio_iOS_Jaya.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C06E572919CB20004E394B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C388CBF24EAB4CD203D08B23 /* Pods_Desafio_iOS_JayaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C06E642919CB44004E394B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB64D35C727D8407DD62C9A0 /* Pods_Desafio_iOS_Jaya_Desafio_iOS_JayaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3505009E2916062400262D32 = {
+			isa = PBXGroup;
+			children = (
+				350500A92916062500262D32 /* Desafio iOS Jaya */,
+				35C06E5B2919CB20004E394B /* Desafio iOS JayaTests */,
+				35C06E682919CB44004E394B /* Desafio iOS JayaUITests */,
+				350500A82916062500262D32 /* Products */,
+				7BC2E9115CA291E7311EF6E4 /* Pods */,
+				D0A3011C3CF727BE111AD1EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		350500A82916062500262D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350500A72916062500262D32 /* Desafio iOS Jaya.app */,
+				35C06E5A2919CB20004E394B /* Desafio iOS JayaTests.xctest */,
+				35C06E672919CB44004E394B /* Desafio iOS JayaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350500A92916062500262D32 /* Desafio iOS Jaya */ = {
+			isa = PBXGroup;
+			children = (
+				350500DA2916139300262D32 /* AppDelegate */,
+				350A917A2916FDAD005625DA /* Resources */,
+				350A917D2916FDF9005625DA /* Screens */,
+				350A91802916FE3E005625DA /* Service */,
+				350A917E2916FE07005625DA /* Models */,
+				350A917F2916FE18005625DA /* Extensions */,
+			);
+			path = "Desafio iOS Jaya";
+			sourceTree = "<group>";
+		};
+		350500DA2916139300262D32 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				350500AA2916062500262D32 /* AppDelegate.swift */,
+				350500AC2916062500262D32 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		350A917A2916FDAD005625DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				350500B32916062600262D32 /* Assets.xcassets */,
+				350500B52916062600262D32 /* LaunchScreen.storyboard */,
+				350500B82916062600262D32 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		350A917D2916FDF9005625DA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3511C94729176E4C002623DE /* JayaDescriptions */,
+				3511C94629176E42002623DE /* Jaya */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		350A917E2916FE07005625DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				353F3C4129186DBF0026ED4A /* JayaModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		350A917F2916FE18005625DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				350A918629175C32005625DA /* UIView+Autolayout.swift */,
+				353F3C452918A4EC0026ED4A /* Observable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		350A91802916FE3E005625DA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				353F3C43291874960026ED4A /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3511C94629176E42002623DE /* Jaya */ = {
+			isa = PBXGroup;
+			children = (
+				350500AE2916062500262D32 /* JayaViewController.swift */,
+				350A918129174D7C005625DA /* JayaTableViewCell.swift */,
+				3511C94829176E85002623DE /* JayaViewModel.swift */,
+			);
+			path = Jaya;
+			sourceTree = "<group>";
+		};
+		3511C94729176E4C002623DE /* JayaDescriptions */ = {
+			isa = PBXGroup;
+			children = (
+				3511C94A29176EB7002623DE /* JayaDescriptionViewController.swift */,
+				3511C94C29176ECE002623DE /* JayaDescriptionViewModel.swift */,
+			);
+			path = JayaDescriptions;
+			sourceTree = "<group>";
+		};
+		35C06E5B2919CB20004E394B /* Desafio iOS JayaTests */ = {
+			isa = PBXGroup;
+			children = (
+				35C06E5C2919CB20004E394B /* Desafio_iOS_JayaTests.swift */,
+				35C06ED6291A0303004E394B /* JayaViewModelSpecs.swift */,
+				3530F685291AF26800B7E253 /* JayaDescriptionViewModelSpecs.swift */,
+			);
+			path = "Desafio iOS JayaTests";
+			sourceTree = "<group>";
+		};
+		35C06E682919CB44004E394B /* Desafio iOS JayaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35C06E692919CB44004E394B /* Desafio_iOS_JayaUITests.swift */,
+				35C06E6B2919CB44004E394B /* Desafio_iOS_JayaUITestsLaunchTests.swift */,
+			);
+			path = "Desafio iOS JayaUITests";
+			sourceTree = "<group>";
+		};
+		7BC2E9115CA291E7311EF6E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ECDF66755076CD7B74F0F60 /* Pods-Desafio iOS Jaya.debug.xcconfig */,
+				992B149810136C8A3BBC77CE /* Pods-Desafio iOS Jaya.release.xcconfig */,
+				B8A45490BBEE39E842E66565 /* Pods-Desafio iOS Jaya-Desafio iOS JayaUITests.debug.xcconfig */,
+				20D90B12DC711D22445F423D /* Pods-Desafio iOS Jaya-Desafio iOS JayaUITests.release.xcconfig */,
+				8EF34BACFE7F67B0A6178106 /* Pods-Desafio iOS JayaTests.debug.xcconfig */,
+				CB5F02DEDCF01F5AA5B4F9A1 /* Pods-Desafio iOS JayaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0A3011C3CF727BE111AD1EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CD719945ADCA6B0CC0ED040 /* Pods_Desafio_iOS_Jaya.framework */,
+				509D4C58CFDA96AB1DCF770D /* Pods_Desafio_iOS_Jaya_Desafio_iOS_JayaUITests.framework */,
+				4AF41D61DD601F22A1633AAC /* Pods_Desafio_iOS_JayaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350500A62916062400262D32 /* Desafio iOS Jaya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350500D12916062600262D32 /* Build configuration list for PBXNativeTarget "Desafio iOS Jaya" */;
+			buildPhases = (
+				EE436BE4B9D58AE0F6602826 /* [CP] Check Pods Manifest.lock */,
+				350500A32916062400262D32 /* Sources */,
+				350500A42916062400262D32 /* Frameworks */,
+				350500A52916062400262D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio iOS Jaya";
+			packageProductDependencies = (
+				350A918429175242005625DA /* Alamofire */,
+				353F3C482918B5BC0026ED4A /* Kingfisher */,
+			);
+			productName = "Desafio iOS Jaya";
+			productReference = 350500A72916062500262D32 /* Desafio iOS Jaya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35C06E592919CB20004E394B /* Desafio iOS JayaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C06E602919CB20004E394B /* Build configuration list for PBXNativeTarget "Desafio iOS JayaTests" */;
+			buildPhases = (
+				2161EA4990946007B59CCECF /* [CP] Check Pods Manifest.lock */,
+				35C06E562919CB20004E394B /* Sources */,
+				35C06E572919CB20004E394B /* Frameworks */,
+				35C06E582919CB20004E394B /* Resources */,
+				6E2975AE1877B8B62D851111 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35C06E5F2919CB20004E394B /* PBXTargetDependency */,
+			);
+			name = "Desafio iOS JayaTests";
+			productName = "Desafio iOS JayaTests";
+			productReference = 35C06E5A2919CB20004E394B /* Desafio iOS JayaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35C06E662919CB44004E394B /* Desafio iOS JayaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C06E6F2919CB44004E394B /* Build configuration list for PBXNativeTarget "Desafio iOS JayaUITests" */;
+			buildPhases = (
+				DD3627DD78611D440A4851D8 /* [CP] Check Pods Manifest.lock */,
+				35C06E632919CB44004E394B /* Sources */,
+				35C06E642919CB44004E394B /* Frameworks */,
+				35C06E652919CB44004E394B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35C06E6E2919CB44004E394B /* PBXTargetDependency */,
+			);
+			name = "Desafio iOS JayaUITests";
+			productName = "Desafio iOS JayaUITests";
+			productReference = 35C06E672919CB44004E394B /* Desafio iOS JayaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3505009F2916062400262D32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					350500A62916062400262D32 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					35C06E592919CB20004E394B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 350500A62916062400262D32;
+					};
+					35C06E662919CB44004E394B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 350500A62916062400262D32;
+					};
+				};
+			};
+			buildConfigurationList = 350500A22916062400262D32 /* Build configuration list for PBXProject "Desafio iOS Jaya" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3505009E2916062400262D32;
+			packageReferences = (
+				350A918329175242005625DA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				353F3C472918B5BC0026ED4A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 350500A82916062500262D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350500A62916062400262D32 /* Desafio iOS Jaya */,
+				35C06E592919CB20004E394B /* Desafio iOS JayaTests */,
+				35C06E662919CB44004E394B /* Desafio iOS JayaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350500A52916062400262D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350500B72916062600262D32 /* LaunchScreen.storyboard in Resources */,
+				350500B42916062600262D32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C06E582919CB20004E394B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C06E652919CB44004E394B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2161EA4990946007B59CCECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio iOS JayaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E2975AE1877B8B62D851111 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio iOS JayaTests/Pods-Desafio iOS JayaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio iOS JayaTests/Pods-Desafio iOS JayaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Desafio iOS JayaTests/Pods-Desafio iOS JayaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3627DD78611D440A4851D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio iOS Jaya-Desafio iOS JayaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE436BE4B9D58AE0F6602826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio iOS Jaya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350500A32916062400262D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353F3C462918A4EC0026ED4A /* Observable.swift in Sources */,
+				3511C94B29176EB7002623DE /* JayaDescriptionViewController.swift in Sources */,
+				350500AF2916062500262D32 /* JayaViewController.swift in Sources */,
+				3511C94929176E85002623DE /* JayaViewModel.swift in Sources */,
+				350500AB2916062500262D32 /* AppDelegate.swift in Sources */,
+				350A918729175C32005625DA /* UIView+Autolayout.swift in Sources */,
+				350A918229174D7C005625DA /* JayaTableViewCell.swift in Sources */,
+				353F3C4229186DBF0026ED4A /* JayaModel.swift in Sources */,
+				353F3C44291874960026ED4A /* Service.swift in Sources */,
+				3511C94D29176ECE002623DE /* JayaDescriptionViewModel.swift in Sources */,
+				350500AD2916062500262D32 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C06E562919CB20004E394B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C06ED7291A0303004E394B /* JayaViewModelSpecs.swift in Sources */,
+				3530F686291AF26800B7E253 /* JayaDescriptionViewModelSpecs.swift in Sources */,
+				35C06E5D2919CB20004E394B /* Desafio_iOS_JayaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C06E632919CB44004E394B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C06E6A2919CB44004E394B /* Desafio_iOS_JayaUITests.swift in Sources */,
+				35C06E6C2919CB44004E394B /* Desafio_iOS_JayaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35C06E5F2919CB20004E394B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350500A62916062400262D32 /* Desafio iOS Jaya */;
+			targetProxy = 35C06E5E2919CB20004E394B /* PBXContainerItemProxy */;
+		};
+		35C06E6E2919CB44004E394B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350500A62916062400262D32 /* Desafio iOS Jaya */;
+			targetProxy = 35C06E6D2919CB44004E394B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		350500B52916062600262D32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350500B62916062600262D32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		350500CF2916062600262D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		350500D02916062600262D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350500D22916062600262D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECDF66755076CD7B74F0F60 /* Pods-Desafio iOS Jaya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Desafio iOS Jaya/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devezequias.Desafio-iOS-Jaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		350500D32916062600262D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992B149810136C8A3BBC77CE /* Pods-Desafio iOS Jaya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Desafio iOS Jaya/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devezequias.Desafio-iOS-Jaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		35C06E612919CB20004E394B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF34BACFE7F67B0A6178106 /* Pods-Desafio iOS JayaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M77TDWM43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devezequias.Desafio-iOS-JayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio iOS Jaya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Desafio iOS Jaya";
+			};
+			name = Debug;
+		};
+		35C06E622919CB20004E394B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5F02DEDCF01F5AA5B4F9A1 /* Pods-Desafio iOS JayaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M77TDWM43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devezequias.Desafio-iOS-JayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio iOS Jaya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Desafio iOS Jaya";
+			};
+			name = Release;
+		};
+		35C06E702919CB44004E394B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A45490BBEE39E842E66565 /* Pods-Desafio iOS Jaya-Desafio iOS JayaUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M77TDWM43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devezequias.Desafio-iOS-JayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desafio iOS Jaya";
+			};
+			name = Debug;
+		};
+		35C06E712919CB44004E394B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D90B12DC711D22445F423D /* Pods-Desafio iOS Jaya-Desafio iOS JayaUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M77TDWM43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devezequias.Desafio-iOS-JayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Desafio iOS Jaya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350500A22916062400262D32 /* Build configuration list for PBXProject "Desafio iOS Jaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350500CF2916062600262D32 /* Debug */,
+				350500D02916062600262D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350500D12916062600262D32 /* Build configuration list for PBXNativeTarget "Desafio iOS Jaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350500D22916062600262D32 /* Debug */,
+				350500D32916062600262D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C06E602919CB20004E394B /* Build configuration list for PBXNativeTarget "Desafio iOS JayaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C06E612919CB20004E394B /* Debug */,
+				35C06E622919CB20004E394B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C06E6F2919CB44004E394B /* Build configuration list for PBXNativeTarget "Desafio iOS JayaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C06E702919CB44004E394B /* Debug */,
+				35C06E712919CB44004E394B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		350A918329175242005625DA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		353F3C472918B5BC0026ED4A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		350A918429175242005625DA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 350A918329175242005625DA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		353F3C482918B5BC0026ED4A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 353F3C472918B5BC0026ED4A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3505009F2916062400262D32 /* Project object */;
+}
